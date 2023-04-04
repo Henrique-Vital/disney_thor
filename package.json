@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "imagemin": "^8.0.1"
   },
   "devDependencies": {
     "gulp-imagemin": "^7.1.0",

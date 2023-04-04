@@ -1,6 +1,7 @@
 const gulp = require('gulp'); //A linha cria uma constante chamada gulp que carrega o módulo gulp.
 const sass = require('gulp-sass')(require('sass')); //A linha cria uma constante chamada sass que carrega o módulo gulp-sass e passa como argumento o módulo Sass.
 const uglify = require('gulp-uglify'); // A linha cria uma constante chamada imagemin que carrega o módulo gulp-imagemin.
+const imagemin = require('gulp-imagemin');
 
 function scripts() {
     return gulp.src('./src/scripts/*.js')
